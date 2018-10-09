@@ -24,6 +24,21 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="McL-gE-hxH" id="Inw-en-Kzu">
                                     <rect key="frame" x="0.0" y="0.0" width="335" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcW-ba-fFW">
+                                            <rect key="frame" x="20" y="7" width="295" height="30"/>
+                                            <color key="backgroundColor" red="1" green="0.98823529409999999" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="bcW-ba-fFW" secondAttribute="bottom" constant="6.5" id="Rh6-QY-hg1"/>
+                                        <constraint firstItem="bcW-ba-fFW" firstAttribute="leading" secondItem="Inw-en-Kzu" secondAttribute="leading" constant="20" symbolic="YES" id="bLg-2g-nsv"/>
+                                        <constraint firstAttribute="trailing" secondItem="bcW-ba-fFW" secondAttribute="trailing" constant="20" symbolic="YES" id="cwP-dV-D6G"/>
+                                        <constraint firstItem="bcW-ba-fFW" firstAttribute="top" secondItem="Inw-en-Kzu" secondAttribute="top" constant="7" id="s0L-fw-QDg"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -35,7 +50,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bGx-bd-AA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1" y="105"/>
+            <point key="canvasLocation" x="-2.3999999999999999" y="104.7976011994003"/>
         </scene>
     </scenes>
 </document>
