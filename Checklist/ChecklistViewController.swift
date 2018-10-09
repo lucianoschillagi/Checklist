@@ -45,7 +45,14 @@ class ChecklistViewController: UITableViewController {
 		// configura la celda reutilizable
 		let cell = tableView.dequeueReusableCell(withIdentifier: "ChecklistItem", for: indexPath)
 		
-		
+		// index path: representa la ubicación de la celda (su "dirección")
+		if let label = cell.viewWithTag(1000) as? UILabel {
+			if indexPath.row == 0 {
+				label.text = "Run a marathon"
+			} else {
+				label.text = "Sleep"
+			}
+		}
 		
 		
 		//devuelve la celda ya configurada
