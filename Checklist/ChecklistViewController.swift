@@ -34,7 +34,7 @@ class ChecklistViewController: UITableViewController {
 	
 	// task: determinar la cantidad de filas que contendrá la tabla
 	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return 5
+		return 1000
 	}
 	
 	
@@ -47,10 +47,21 @@ class ChecklistViewController: UITableViewController {
 		
 		// index path: representa la ubicación de la celda (su "dirección")
 		if let label = cell.viewWithTag(1000) as? UILabel {
-			if indexPath.row == 0 {
-				label.text = "Run a marathon"
-			} else {
-				label.text = "Sleep"
+			
+
+			if indexPath.row % 5 == 0 {
+				label.text = "Take a jog"
+			} else if  indexPath.row % 4 == 0  {
+				label.text = "Watch a movie"
+			}
+			else if indexPath.row % 3 == 0  {
+				label.text = "Code an app"
+			}
+			else if indexPath.row % 4 == 0  {
+				label.text = "Walk the dog"
+			}
+			else if indexPath.row % 5 == 0  {
+				label.text = "Study design patterns"
 			}
 		}
 		

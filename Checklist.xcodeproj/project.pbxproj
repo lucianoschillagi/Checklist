@@ -22,6 +22,7 @@
 		A6C51C30216D52FA009438BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6C51C33216D52FA009438BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6C51C35216D52FA009438BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C51C3B216D7A80009438BB /* ProtocolsPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolsPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 				A6C51C29216D52F7009438BB /* AppDelegate.swift */,
 				A6C51C2B216D52F7009438BB /* ChecklistViewController.swift */,
 				A6C51C2D216D52F7009438BB /* Main.storyboard */,
+				A6C51C3B216D7A80009438BB /* ProtocolsPlayground.playground */,
 				A6C51C30216D52FA009438BB /* Assets.xcassets */,
 				A6C51C32216D52FA009438BB /* LaunchScreen.storyboard */,
 				A6C51C35216D52FA009438BB /* Info.plist */,
