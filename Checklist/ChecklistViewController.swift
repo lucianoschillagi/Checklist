@@ -25,9 +25,6 @@ class ChecklistViewController: UITableViewController {
 		
 	}
 	
-	
-	
-	
 	//*****************************************************************
 	// MARK: - Table View Methods
 	//*****************************************************************
@@ -71,7 +68,25 @@ class ChecklistViewController: UITableViewController {
 		
 	}
 
+	
+	// task: ejecutar una lógica si una fila es seleccionada
+	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		
+		// se asegura de que haya celdas
+		if let cell = tableView.cellForRow(at: indexPath) {
+			
+			// si la celca no tiene un checkmark, ponérselo
+			if cell.accessoryType == .none {
+				cell.accessoryType = .checkmark
+				// sino, sacarlo
+			} else {
+				cell.accessoryType = .none
+			}
+		}
+	}
+	
+	
 
-}
+} // end class
 
 
