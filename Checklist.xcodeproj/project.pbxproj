@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A687E14F216E7C69000BCCD2 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A687E14E216E7C69000BCCD2 /* TodoList.swift */; };
 		A6C51C2A216D52F7009438BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C51C29216D52F7009438BB /* AppDelegate.swift */; };
 		A6C51C2C216D52F7009438BB /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C51C2B216D52F7009438BB /* ChecklistViewController.swift */; };
 		A6C51C2F216D52F7009438BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C51C2D216D52F7009438BB /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A687E14E216E7C69000BCCD2 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		A6C51C26216D52F7009438BB /* Checklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C51C29216D52F7009438BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6C51C2B216D52F7009438BB /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				A6C51C29216D52F7009438BB /* AppDelegate.swift */,
 				A6C51C2B216D52F7009438BB /* ChecklistViewController.swift */,
+				A687E14E216E7C69000BCCD2 /* TodoList.swift */,
 				A6C51C3E216D9639009438BB /* ChecklistItem.swift */,
 				A6C51C2D216D52F7009438BB /* Main.storyboard */,
 				A6C51C3B216D7A80009438BB /* ProtocolsPlayground.playground */,
@@ -143,6 +146,7 @@
 				A6C51C2C216D52F7009438BB /* ChecklistViewController.swift in Sources */,
 				A6C51C3F216D9639009438BB /* ChecklistItem.swift in Sources */,
 				A6C51C2A216D52F7009438BB /* AppDelegate.swift in Sources */,
+				A687E14F216E7C69000BCCD2 /* TodoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,7 +26,9 @@ class ChecklistViewController: UITableViewController {
 	var row2Item: ChecklistItem
 	var row3Item: ChecklistItem
 	var row4Item: ChecklistItem
+	var todoList: TodoList
 
+	
 	required init?(coder aDecoder: NSCoder) {
 		row0Item = ChecklistItem()
 		row1Item = ChecklistItem()
@@ -40,6 +42,9 @@ class ChecklistViewController: UITableViewController {
 		row2Item.text = "Code an app"
 		row3Item.text = "Walk the dog"
 		row4Item.text = "Study design patterns"
+		
+		// ahora todos los 'to do list items' están encapsulados en la propiedad ´todoList´
+		todoList = TodoList()
 
 		super.init(coder: aDecoder)
 	}
